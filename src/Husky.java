@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Husky {
+public class Husky extends Dog{
+
+    @Override
+    String speak() {
+        return "Arooo!";
+    }
 }

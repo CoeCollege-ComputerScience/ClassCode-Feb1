@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class Cow {
+public class Cow extends Animal{
+    public Cow() {
+        super(4);
+    }
+
+    @Override
+    String speak() {
+        return "Moo";
+    }
 }
